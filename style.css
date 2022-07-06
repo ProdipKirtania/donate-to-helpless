@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    /* color: #495057; */
 }
 
 h1 {
@@ -32,7 +33,7 @@ p {
 }
 
 .section-text>h3 {
-    color: #ef233c;
+    color: #ff4e00;
 }
 
 .section-text>p {
@@ -63,15 +64,16 @@ p {
 
 .org-name {
     /* background-color: #ef233c; */
-    border-bottom: 1px solid #ef233c;
+    border-bottom: 1px solid #ff4e00;
     color: #fff;
 }
 
 .button {
     padding: 10px 20px 10px 20px;
-    background-color: #e71d36;
+    background-color: #ff5714;
     color: #fff;
-    margin: 30px !important;
+    text-align: center;
+    /* margin: 30px !important; */
     border-radius: 5px;
     text-decoration: none;
 }
@@ -116,9 +118,9 @@ p {
     width: 90px;
     padding: 20px 20px;
     background-color: #FFEEEE;
-    border: 2px solid #ef233c;
+    border: 2px solid #ff4e00;
     border-radius: 5px;
-    color: #ef233c;
+    color: #ff4e00;
     font-size: 18px;
     font-weight: 600;
 }
@@ -134,7 +136,7 @@ p {
 .other-amnt-form>button {
     height: 30px;
     padding: 15px 25px 35px 25px;
-    background: linear-gradient(to right, #ff5e5b 0%, #ef233c 100%);
+    background: linear-gradient(to right, #ff8500 0%, #ff4e00 100%);
     color: #fff;
     border: 0;
     border-radius: 5px;
@@ -165,13 +167,13 @@ p {
 }
 
 .donation-plan-box {
-    height: 290px;
+    height: 260px;
     width: 350px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 50px 15px 30px 15px;
     text-align: left;
-    color: #fff;
+    color: #fff ; 
 }
 
 .donation-plan-box>p {
@@ -179,11 +181,11 @@ p {
 }
 
 #box-1 {
-    background-color: #f25c54;
+    background-color: #FC6539;  
 }
 
 #box-2 {
-    background-color: #708d81;
+    background-color: #FEA444;
 }
 
 #box-3 {
@@ -191,7 +193,7 @@ p {
 }
 
 #box-4 {
-    background-color: #669bbc;
+    background-color: #ff8c42;
 }
 
 .icon {
@@ -203,3 +205,34 @@ p {
 }
 
 /*  donation plan section ends*/
+
+/* blog section starts */
+.blog-section{
+    margin: 50px 120px 50px 120px;
+}
+.blog-section-title{
+    padding: 0 15px 10px 15px;
+}
+.donation-blogs{
+    display: flex;
+    justify-content: center;
+}
+.blog-post{
+    height: 500px;
+    width: 345px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #f7e1d3;
+    border-bottom: 5px solid #ff4e00;
+}
+.blog-post>img{
+    width: 100%;
+    height: 250px;
+}
+.blog-description{
+    padding: 10px 15px;
+    color: #495057; 
+}
+
+/* blog section ends */
+
