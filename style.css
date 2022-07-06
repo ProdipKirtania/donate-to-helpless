@@ -33,7 +33,7 @@ p {
 }
 
 .section-text>h3 {
-    color: #ff4e00;
+    color: #FC6539;
 }
 
 .section-text>p {
@@ -52,8 +52,8 @@ p {
 
 .overlay {
     position: relative;
-    height: 350px;
-    width: 1000px;
+    height: 320px;
+    width: 945px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
@@ -173,7 +173,7 @@ p {
     margin-right: 10px;
     padding: 50px 15px 30px 15px;
     text-align: left;
-    color: #fff ; 
+    color: #fff;
 }
 
 .donation-plan-box>p {
@@ -181,7 +181,7 @@ p {
 }
 
 #box-1 {
-    background-color: #FC6539;  
+    background-color: #FC6539;
 }
 
 #box-2 {
@@ -207,17 +207,20 @@ p {
 /*  donation plan section ends*/
 
 /* blog section starts */
-.blog-section{
-    margin: 50px 120px 50px 120px;
+.blog-section {
+    margin: 50px 120px;
 }
-.blog-section-title{
+
+.blog-section-title {
     padding: 0 15px 10px 15px;
 }
-.donation-blogs{
+
+.donation-blogs {
     display: flex;
     justify-content: center;
 }
-.blog-post{
+
+.blog-post {
     height: 500px;
     width: 345px;
     margin-left: 15px;
@@ -225,14 +228,85 @@ p {
     background-color: #f7e1d3;
     border-bottom: 5px solid #ff4e00;
 }
-.blog-post>img{
+
+.blog-post>img {
     width: 100%;
     height: 250px;
 }
-.blog-description{
+
+.blog-description {
     padding: 10px 15px;
-    color: #495057; 
+    color: #495057;
 }
 
 /* blog section ends */
+
+/* Join us section starts */
+.volunteer-section{
+    margin: 50px 50px;
+}
+.volunteer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7e1d3;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 10px;
+}
+.volunteer-banner{
+    height: 320px;
+    width: 944px;
+    background-size: 100%;
+    background-image: url(images/Volunteers.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    font-size: 24px !important;
+}
+.volunteer-btn{
+    background-color: #f7e1d3;
+}
+
+/* Join us section ends */
+
+/*  */
+
+.update-section {
+    margin: 50px 250px;
+}
+/* .subscibe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #FFF4D6;
+} */
+
+.subscibe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: #f7e1d3;
+    border-radius: 5px;
+}
+.form-input {
+    padding: 20px 70px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.subscibe-form a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    background-color: #FC6539;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
 
