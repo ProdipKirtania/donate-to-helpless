@@ -64,13 +64,13 @@ p {
 
 .org-name {
     /* background-color: #ef233c; */
-    border-bottom: 1px solid #ff4e00;
+    border-bottom: 1px solid #FC6539;
     color: #fff;
 }
 
 .button {
     padding: 10px 20px 10px 20px;
-    background-color: #ff5714;
+    background-color: #FC6539;
     color: #fff;
     text-align: center;
     /* margin: 30px !important; */
@@ -118,9 +118,9 @@ p {
     width: 90px;
     padding: 20px 20px;
     background-color: #FFEEEE;
-    border: 2px solid #ff4e00;
+    border: 2px solid #FC6539;
     border-radius: 5px;
-    color: #ff4e00;
+    color: #FC6539;
     font-size: 18px;
     font-weight: 600;
 }
@@ -136,7 +136,7 @@ p {
 .other-amnt-form>button {
     height: 30px;
     padding: 15px 25px 35px 25px;
-    background: linear-gradient(to right, #ff8500 0%, #ff4e00 100%);
+    background: linear-gradient(to right, #ff8500 0%, #FC6539 100%);
     color: #fff;
     border: 0;
     border-radius: 5px;
@@ -213,6 +213,7 @@ p {
 
 .blog-section-title {
     padding: 0 15px 10px 15px;
+    color: #495057;
 }
 
 .donation-blogs {
@@ -226,7 +227,7 @@ p {
     margin-left: 15px;
     margin-right: 15px;
     background-color: #f7e1d3;
-    border-bottom: 5px solid #ff4e00;
+    border-bottom: 5px solid #FC6539;
 }
 
 .blog-post>img {
@@ -269,19 +270,12 @@ p {
 
 /* Join us section ends */
 
-/*  */
+/* subscription section starts */
 
 .update-section {
     margin: 50px 250px;
 }
-/* .subscibe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    width: 100%;
-    background-color: #FFF4D6;
-} */
+
 
 .subscibe {
     display: flex;
@@ -309,4 +303,22 @@ p {
 
 }
 
+/* subscription section ends */
 
+/* footer section starts */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: #0B0D17;
+}
+.footer-text h3{
+    color: #FC6539;
+    text-align: center;
+}
+.footer-text p{
+    color: #fff;
+}
+/* footer section ends */
